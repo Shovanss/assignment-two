@@ -490,37 +490,51 @@ footer hr {
     background-repeat: no-repeat;
     background-position: center;
     flex-direction: column;
+    
    }
    .banner h2{
-    width: 400px;
+    width: 330px;
     margin-bottom: 20px;
     text-align: center;
-    margin-left: 40px;
+    margin-left: 8px;
     padding-top: 40px;
+    font-size: 1.25rem;
    }
 
 .banner p{
-    width: 500px;
+    width: 335px;
     max-width: 100%;
-    margin-left: 15px;
+    
     }
     .option-container{
-        width: 300px;
+        width: 325px;
         max-width: 100%;
         flex-direction: column;
-        margin-left: 100px;
+        margin-left: 10px;
+        padding: 0;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        
     }
     .option-item{
-        width: 300px;
-        max-width: 100%;
+       width: 300px;
+       width: 88%;
+       margin-top: 13px;
+        
     }
     .select-item{
         width: 300px;
-        max-width: 100%; 
+        width: 90%;
+        padding: 10px 0;
+
+         
     }
     .btn-1{
         width: 300px;
-        max-width: 100%;  
+        max-width: 100%; 
+        margin-bottom: 13px; 
     }
    .about-tours-container{
     width: 600px;
@@ -539,22 +553,25 @@ margin-bottom: 40px;
     width: 600px;
     max-width: 95%;
     flex-direction: column;
-    gap: 25px;
+    gap: 0px;
    }
    .destination, .img-container-1{
     width: 600px;
     max-width: 95%;
     flex-direction: column;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
    }
    .img-3{
-    margin-top: 240px;
+    margin-top: 40px;
    }
    .destination, .img-container-2{
     width: 600px;
     max-width: 95%;
     flex-direction: column;
     margin-top: 25px;
+ }
+ .img-container-2{
+    margin-top: 50px;
  }
  .destination, .img-container-3{
     width: 600px;
@@ -568,6 +585,10 @@ margin-bottom: 40px;
  .our-service, .box-container, .box-1, .box-2{
     width: 600px;
     max-width: 100%;
+    margin: 0 auto;
+ }
+ .box-1-h{
+    font-size: 1.50rem;
  }
  .newsletter{
     width: 600px;
@@ -579,6 +600,11 @@ margin-bottom: 40px;
     max-width: 100%;
     flex-direction: column;
  }
+
+ .newsletter-1-para{
+    font-size: 0.75rem;
+    
+ }
  
     .newsletter-1 hr{
         max-width: 600px;
@@ -589,23 +615,38 @@ margin-bottom: 40px;
     max-width: 70%;
     flex-direction: column;
  }
+ .newsletter-btn{
+    font-size: 0.95rem;
+    padding-left: 75px;
+ }
     .newsletter-2 img{
         width: 600px;
         height: 422px;
         max-width: 100%;
-        margin-top: 20px;
+        margin-top: 30px;
+        
+        }
+        .travel-saving{
+            
+            width: 90%;
+            } 
+        
+    .travel-saving h2{
+        font-size: 0.75rem;
+    }
+    .travel-saving p{
+        font-size: 0.75rem;
     }
     footer{
         width: 600px;
         max-width: 95%;
-    }
-}
-@media screen and (max-width: 992px) {
-    .banner, .about-tours-container, .destination{
-        width: 990px;
-        margin: 0 auto;
-        margin-top: 100px;
-        max-width: 100%;
         
+    }
+    .footer-heading, .head-name, .head-name-last{
+        width: 50%;
+        font-size: 1.35rem;
+    }
+    .footer-heading img{
+        width: 45%;
     }
 }
