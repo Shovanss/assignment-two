@@ -59,9 +59,10 @@ margin-top: 25px;
     background: rgba(255, 255, 255, 0.30);
    display: flex;
     gap: 30px;
-    padding: 15px;
+    padding: 10px;
     justify-content: center;
-    margin: 0 120px;
+    margin: 0 160px;
+    margin-top: 48px;
    }
 
 .option-item{
@@ -131,17 +132,21 @@ line-height: 26px; /* 162.5% */
 font-size: 16px;
 font-weight: 400;
 padding-right: 50px;
+margin-bottom: 30px;
 }
 
 .about-tours-content p{
     padding-right: 50px;
-    margin-top: 33px;
+    margin-top: 63px;
+    
+    
 }
 .about-tours-desc{
     color: #5A5A5D;
     font-family: "Mulish", sans-serif;
     font-size: 16px;
     font-weight: 400;
+    
 } 
 .btn-2{
     border-radius: 8px;
@@ -153,7 +158,8 @@ font-size: 20px;
 font-weight: 800;
 border: 0;
 padding: 15px 30px;
-margin-top: 35px;
+margin-top: 85px;
+
 }
 
 /* Third Section */
@@ -473,6 +479,7 @@ footer hr {
     width: 600px;
     max-width: 95%;
    }
+   
    nav> ul{
     width: 300px;
     max-width: 95%;
@@ -480,7 +487,9 @@ footer hr {
     background-color: #FF5400;
    }
    .nav-head{
-    margin-left: -52px ;
+    margin-left: -72px ;
+    }
+   
    }
    .banner{
     width: 600px;
