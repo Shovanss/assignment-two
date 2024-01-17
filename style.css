@@ -434,9 +434,10 @@ footer{
 
 .footer-heading{
     
+    display: inline-flex;
     
     padding-top: 110px;
-    display: inline-flex;
+    
 }
 
 
@@ -490,7 +491,7 @@ footer hr {
     margin-left: -72px ;
     }
    
-   }
+   
    .banner{
     width: 600px;
     max-width: 95%;
@@ -654,6 +655,10 @@ margin-bottom: 40px;
     .footer-heading, .head-name, .head-name-last{
         width: 50%;
         font-size: 1.35rem;
+    }
+    .footer-heading{
+        display: inline-flex;
+       margin-left: 80px;
     }
     .footer-heading img{
         width: 45%;
